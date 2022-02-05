@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: "Onetep",
+    titleTemplate: "%s · onetep polska",
+    description: "onetep polska",
+    url: "https://www.onetep.pl", // No trailing slash allowed!
+    image: "", // Path to the image placed in the 'static' folder, in the project's root directory.
+    twitterUsername: "@onetep",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
